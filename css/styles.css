@@ -25,6 +25,7 @@ main {
 .logo {
     max-width: 100%;
     height: auto;
+    max-height: 150px;
 }
 
 nav ul {
@@ -51,9 +52,52 @@ nav a:hover {
     margin: 0 20px 20px 0;
 }
 
-footer.social {
+.social {
     width: 30px;
     height: auto;
     margin: 0 5px;
+}
+
+.about-float {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    margin: 0 20px 20px 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+form input, form textarea, form select {
+    width: 100px;
+    max-width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.products-float {
+    float: right;
+    max-width: 30%;
+    height: auto;
+    margin: 0 0 20px 20px;
 }
 /* Add specific styles for navigation, main content, images, etc. */
